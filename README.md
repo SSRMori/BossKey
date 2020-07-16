@@ -2,7 +2,7 @@
 
 ![build-passing](https://img.shields.io/badge/build-passing-brightgreen)
 
-本项目基于[keyboard](https://github.com/boppreh/keyboard)和[pywin32]，**目前只支持在windows平台使用**
+本项目基于[keyboard](https://github.com/boppreh/keyboard)和[pywin32]()，**目前只支持在windows平台使用**
 
 支持使用自定义热键，一键隐藏特定的窗口，并展示需要展示的窗口。
 

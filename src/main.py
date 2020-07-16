@@ -133,7 +133,10 @@ if __name__ == "__main__":
         win = tkinter.Tk()
         win.iconbitmap('./../image/icon.ico')
         win.title("BOSSKEY")
-        f = open('hotkey.json')
+        try:
+            f = open('hotkey.json')
+        except:
+            f = None
         if f is None:
             keyboard.add_hotkey('alt+d', boss_key)
             keyboard.add_hotkey('esc+alt+d', exit_boss_key)
